@@ -1,2 +1,2 @@
-#Finess Website for Hero Gym.
+#Fitness Website for Kings Gym.
 #Website made with HTML. CSS and Javascript
