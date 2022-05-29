@@ -1,10 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-image: url(media/bg-image.jpg);
+}
+
+.navbar {
+    padding: 20px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins';
+
+}
+
+#nav-link {
+    font-size: 12px;
+    margin-top: 20px;
+}
+#nav-link:hover {
     color: #F66B0E;
-    background-color: #200D00;
+}
+
+#nav-btn {
+    margin-top: 12px;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+    color: #F66B0E;
+    border: 1px solid #F66B0E;
+    /* border: 2px; */
+    cursor: pointer;
+}
+
+#nav-btn:hover {
+    background-color: #F66B0E;
+    color: #000;
+
+}
+
+#logo img {
+    width: 65px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#logo {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.intro-section {
+    height: 100vh;
+    display: flex;
+}
+
+.intro {
+    margin-left: 8%;
+    margin-top: 5%;
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: bolder;
+}
+.intro h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.intro p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.intro button {
+    color: #fff;
+    background-color: #F66B0E;
+    padding: 20px 20px;
+    font-size: 11px;
+    border: 1px solid #F66B0E;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    /* text-align: center; */
+}
+.stats h1 {
+    font-size: 25px;
+}
+
+.social-link a {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.intro-img {
+    padding: 30px 10px 10px 10px;
+}
+
+#bg-design {
+    width: 596px;
+    height: 125px;
+    background-color: #F66B0E;
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
 }
