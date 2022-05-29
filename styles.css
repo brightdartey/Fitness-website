@@ -59,7 +59,7 @@ body{
 }
 
 .intro-section {
-    height: 100vh;
+    height: 85vh;
     display: flex;
 }
 
@@ -121,4 +121,76 @@ body{
     position: absolute;
     bottom: 100px;
     z-index: -1;
+}
+
+.program-section {
+    background-color: #140800;
+}
+.program-section h3 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #F66B0E;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    padding-top: 40px;
+}
+.program-section h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 30px;
+}
+
+.program-grid {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+#box {
+    border: 1px solid #F66B0E;
+    font-size: 22px;
+    text-align: left;
+    margin: 10px;
+    padding: 20px 20px 30px 20px;
+    max-width: 250px;
+}
+
+#box:hover {
+    background-color: #F66B0E;
+}
+
+#box i {
+    font-size: 55px;
+}
+
+#box h4 {
+    font-size: 25px;
+}
+#box p {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#box a {
+    border: 1px solid #F66B0E;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F66B0E;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#about-grid {
+    display: flex;
+    font-family: 'poppins';
+    color: #fff;
+    justify-content: center;
+}
+#about-grid img {
+    width: 100%;
+    margin-left: 10%;
 }
