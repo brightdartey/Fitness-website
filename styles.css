@@ -125,12 +125,13 @@ body{
 
 .program-section {
     background-color: #140800;
+    padding-top: 20px;
 }
 .program-section h3 {
     text-align: center;
     text-transform: capitalize;
     color: #F66B0E;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     padding-top: 40px;
 }
@@ -138,7 +139,7 @@ body{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
 }
 
@@ -146,7 +147,7 @@ body{
     display: flex;
     justify-content: center;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
 }
 
 #box {
@@ -184,13 +185,89 @@ body{
     padding: 10px;
 }
 
+.about-section {
+    background-color: #140800;
+    padding: 50px 50px; 
+}
+
 #about-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     font-family: 'poppins';
     color: #fff;
     justify-content: center;
 }
+
 #about-grid img {
-    width: 100%;
-    margin-left: 10%;
+    width: 80%;
+    margin-left: 50px;
+}
+
+#aboutus {
+    margin: 20px;
+    text-align: left;
+}
+#aboutus p {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+#aboutus h1 {
+    padding-bottom: 20px;
+}
+
+#aboutus a {
+    border: 1px solid #F66B0E;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+#aboutus a:hover {
+    background-color: #F66B0E;
+}
+
+#plan-box {
+    border: 1px solid #F66B0E;
+    font-size: 22px;
+    text-align: left;
+    margin: 30px;
+    padding: 20px 20px 20px 40px;
+    text-align: left;
+    width: 270px;
+}
+
+#plan-box:hover {
+    background-color: #F66B0E;
+}
+
+#plan-box h4 {
+    font-size: 20px;
+}
+#plan-box ul {
+    font-size: 15px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#plan-box h2 {
+    font-size: 18px;
+}
+#plan-box i {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#plan-box a {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F66B0E;
+    border: 1px solid #F66B0E;
+    padding: 10px;
+}
+
+#data-point {
+    display: flex;
+    color: #fff;
+    font-family: 'Poppins';
 }
