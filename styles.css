@@ -266,8 +266,34 @@ body{
     padding: 10px;
 }
 
+.data-section {
+    background-color: #140800;
+    padding: 30px;
+}
+
 #data-point {
-    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
     color: #fff;
     font-family: 'Poppins';
+    display: flex;
+    justify-content: space-around;
+}
+
+#data  {
+    text-align: center;
+}
+#data i {
+    font-size: 32px;
+}
+#data h1 {
+    font-size: 22px;
+}
+#data p {
+    font-size: 8px;
+}
+
+.bmi-section {
+    background-color: #140800;
+    padding: 30px 40px 40px 30px;
 }
