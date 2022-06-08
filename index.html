@@ -15,7 +15,7 @@
             <a id="nav-link" href="#home">Home</a>
             <a id="nav-link" href="#aboutus">About Us</a>
             <a id="nav-link" href="#services">Services</a>
-            <a id="nav-link" href="#gallery">Gallery</a>
+            <a id="nav-link" href="#bmi">Check BMI</a>
             <a id="nav-link" href="#contactus">Contact Us</a>
             <a id="nav-btn" href="#login">Log in</a>
             <a id="nav-btn" href="#signup">Sign Up</a>
@@ -90,7 +90,7 @@
     <section class="about-section">
         <div id="about-grid">
             <div id="img">
-                <img src="media/images(3).jpg" alt="">
+                <img src="media/img-kings.jpg" alt="">
             </div>
             <div id="aboutus">
                 <h1>About Us</h1>
@@ -178,20 +178,82 @@
                 <a href="#">Purchase Now</a>
             </div>
         </div>
-    </section class="bmi-section">
-        <div id="cal">
-            <h1>Calculate <span>your bmi</span></h1>
-            <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Quaerat, ipsam!
-            </p>
-                <input type="number" id="bmi-hieght" placeholder="hieght">
-                <input type="number" id="bmi-weight" placeholder="weight">
-                <input type="button" value="submit" id="submit-btn">
+    </section>
+    <section class="bmi-section">
+        <div>
+            <img src="media/images_4.png" alt="">
+        </div>
+        <div class="container">
+            <h1>Calculate <span>your BMI</span></h1>
+            <p id="bmi-disc">The Body Mass Index (BMI) Calculator 
+                can be used to calculate BMI values based on their 
+                height and weight. BMI is a fairly reliable indicator 
+                of body fatness for most people.</p>
+            <!-- Option for providing height 
+                and weight to the user-->
+            <p>Height (in cm)</p>
+    
+            <input type="text" id="height" placeholder="Enter height (in cm)">
+    
+            <p>Weight (in kg)</p>
+    
+            <input type="text" id="weight" placeholder="Enter weight (in kg)"> <br>
+    
+            <div id="result"></div>
+            <button id="btn">Calculate</button>
+    
         </div>
 
-    <section>
-
     </section>
+    <footer class="footer">
+        <div id="col-1">
+            <img id="in-foot" src="media/KINGS_GYM_LOGO.png" alt="logo"><h1 id="in-foot">KINGS GYM</h1>
+            <p>The last three or four reps is what makes the muscle grow.</p>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <button id="subs-btn">Subscribe</button>
+        </div>
+        <div id="col-2">
+            <h3>Services</h3>
+            <ul>
+                <li>Strength</li>
+                <li>Cadio</li>
+                <li>Flexibility</li>
+                <li>Balance</li>
+            </ul>
+        </div>
+        <div id="col-2">
+            <h3>Pricing</h3>
+            <ul>
+                <li>Basic</li>
+                <li>Regular</li>
+                <li>Premium</li>
+            </ul>
+        </div>
+        <div id="col-2">
+            <h3>Company</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Awards</li>
+                <li>Partners</li>
+            </ul>
+        </div>
+        <div id="col-2">
+            <h3>Support</h3>
+            <ul>
+                <li>Golden St. close, Mempasem</li>
+                <li>East Legon, Accra, Ghana</li>
+                <li>Tel: +233 243 807 830</li>
+                <li>info@kingsfitnesscenter.com</li>
+            </ul>
+        </div>
+        <div id="col-3">
+            <hr style="color: #c2c2c2; height: 0.5px">
+            &copy;copyright 2022 - KINGS GYM
+        </div>
+    </footer>
+
+
 
 
     <script src="script.js"></script>
