@@ -10,18 +10,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" >
             <a id="logo" href="#"><img src="media/KINGS_GYM_LOGO.png" alt="logo">KINGS GYM</a>
             <a id="nav-link" href="#home">Home</a>
-            <a id="nav-link" href="#aboutus">About Us</a>
-            <a id="nav-link" href="#services">Services</a>
+            <a id="nav-link" href="#programs">Programs</a>
+            <a id="nav-link" href="#pricing">Pricing</a>
             <a id="nav-link" href="#bmi">Check BMI</a>
             <a id="nav-link" href="#contactus">Contact Us</a>
             <a id="nav-btn" href="#login">Log in</a>
             <a id="nav-btn" href="#signup">Sign Up</a>
         </nav>
     </header>
-    <section class="intro-section">
+
+    <!-- scroll to top button -->
+    <button class="arrow-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <section class="intro-section" id="home">
         <div class="intro">
             <h2>Make your</h2>
             <h1>Body Shape</h1>
@@ -34,7 +40,7 @@
                     <p>Exercise Progress</p>
                 </div>
                 <div>
-                    <h1>250+</h1>
+                    <h1>250</h1>
                     <p>Members</p>
                 </div>
                 <div>
@@ -53,7 +59,8 @@
             <img src="media/image.png" alt="">
         </div>
     </section>
-    <section class="program-section">
+
+    <section class="program-section" id="programs">
         <h3>Our Program Build</h3>
         <h1>Your Best Body</h1>
         <div class="program-grid">
@@ -87,12 +94,13 @@
             </div>
         </div>
     </section>
-    <section class="about-section">
+
+    <section class="about-section" id="aboutus">
         <div id="about-grid">
             <div id="img">
                 <img src="media/img-kings.jpg" alt="">
             </div>
-            <div id="aboutus">
+            <div id="about-us">
                 <h1>About Us</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                      Facilis voluptatibus dolores, eos iure, maiores voluptates odit 
@@ -109,16 +117,17 @@
             </div>
         </div>
     </section>
+
     <section class="data-section">
         <div id="data-point">
             <div id="data">
                 <i class="far fa-clock"></i>
-                <h1>1300</h1>
+                <h1 id="counter">1300</h1>
                 <p>Exercise Progress</p>
             </div>
             <div id="data">
                 <i class="far fa-heart"></i>
-                <h1>1500</h1>
+                <h1 id="counter">1500</h1>
                 <p>Happy Clients</p>
             </div>
             <div id="data">
@@ -134,7 +143,7 @@
         </div>
     </section>
 
-    <section class="program-section">
+    <section class="program-section" id="pricing">
         <h3>Pricing</h3>
         <h1>Our Special Plans</h1>
         <div class="program-grid">
@@ -179,7 +188,8 @@
             </div>
         </div>
     </section>
-    <section class="bmi-section">
+
+    <section class="bmi-section" id="bmi">
         <div>
             <img src="media/images_4.png" alt="">
         </div>
@@ -201,16 +211,21 @@
     
             <div id="result"></div>
             <button id="btn">Calculate</button>
-    
         </div>
-
     </section>
-    <footer class="footer">
+
+    <footer class="footer" id="contactus">
         <div id="col-1">
             <img id="in-foot" src="media/KINGS_GYM_LOGO.png" alt="logo"><h1 id="in-foot">KINGS GYM</h1>
             <p>The last three or four reps is what makes the muscle grow.</p>
             <input type="email" id="email" placeholder="Your Email" required>
             <button id="subs-btn">Subscribe</button>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
         </div>
         <div id="col-2">
             <h3>Services</h3>
@@ -248,13 +263,10 @@
             </ul>
         </div>
         <div id="col-3">
-            <hr style="color: #c2c2c2; height: 0.5px">
-            &copy;copyright 2022 - KINGS GYM
+            <!-- <hr style="color: #F66B0E; height: 0.5px"> -->
+            &copy;KINGS FITNESS CENTER - 2022  All rights reservrd
         </div>
     </footer>
-
-
-
 
     <script src="script.js"></script>
 </body>

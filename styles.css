@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 
 * {
     margin: 0;
@@ -15,8 +18,24 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.fixed-nav {
+    padding: 20px;
+    background-color: #140800;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins';
+
+}
+.fixed-nav a {
     color: #fff;
     text-decoration: none;
     font-family: 'Poppins';
@@ -125,7 +144,7 @@ body{
 
 .program-section {
     background-color: #140800;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .program-section h3 {
     text-align: center;
@@ -203,25 +222,25 @@ body{
     margin-left: 50px;
 }
 
-#aboutus {
+#about-us {
     margin: 20px;
     text-align: left;
 }
-#aboutus p {
+#about-us p {
     font-size: 12px;
     padding-bottom: 30px;
 }
-#aboutus h1 {
+#about-us h1 {
     padding-bottom: 20px;
 }
 
-#aboutus a {
+#about-us a {
     border: 1px solid #F66B0E;
     padding: 10px;
     text-decoration: none;
     color: #fff;
 }
-#aboutus a:hover {
+#about-us a:hover {
     background-color: #F66B0E;
 }
 
@@ -230,7 +249,7 @@ body{
     font-size: 22px;
     text-align: left;
     margin: 30px;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 40px 40px;
     text-align: left;
     width: 270px;
 }
@@ -297,7 +316,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #140800;
-    padding: 30px 40px 40px 30px;
+    padding: 90px 40px 40px 30px;
 }
 
 .container {
@@ -375,6 +394,7 @@ body{
 }
 .footer #col-1 {
     grid-column: 1 / span 2;
+    text-align: left;
 }
 .footer #col-1 img {
     width: 20%;
@@ -410,4 +430,48 @@ body{
     text-align: center;
     color: #c2c2c2;
     font-size: 12px;
+}
+
+.social-icons {
+    color: #F66B0E;
+    font-size: 32px;
+}
+.social-icons i {
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.arrow-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #F66B0E;
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0px ;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.show-btn {
+    visibility: visible;
 }
