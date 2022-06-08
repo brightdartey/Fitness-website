@@ -10,14 +10,15 @@ html {
 }
 body{
     background-image: url(media/bg-image.jpg);
+    background-repeat: no-repeat;
 }
 
 .navbar {
     padding: 20px;
-    /* background-color: black; */
     display: flex;
     justify-content: space-around;
 }
+
 .fixed-nav {
     padding: 20px;
     background-color: #140800;
@@ -33,19 +34,19 @@ body{
     color: #fff;
     text-decoration: none;
     font-family: 'Poppins';
-
 }
+
 .fixed-nav a {
     color: #fff;
     text-decoration: none;
     font-family: 'Poppins';
-
 }
 
 #nav-link {
     font-size: 12px;
     margin-top: 20px;
 }
+
 #nav-link:hover {
     color: #F66B0E;
 }
@@ -56,14 +57,12 @@ body{
     font-size: 13px;
     color: #F66B0E;
     border: 1px solid #F66B0E;
-    /* border: 2px; */
     cursor: pointer;
 }
 
 #nav-btn:hover {
     background-color: #F66B0E;
     color: #000;
-
 }
 
 #logo img {
@@ -94,10 +93,12 @@ body{
     font-size: 90px;
     font-weight: bolder;
 }
+
 .intro h2 {
     text-transform: uppercase;
     font-size: 30px;
 }
+
 .intro p {
     font-size: 12px;
     margin-bottom: 20px;
@@ -117,8 +118,8 @@ body{
 .stats {
     display: grid;
     grid-template-columns: repeat(3, 90px);
-    /* text-align: center; */
 }
+
 .stats h1 {
     font-size: 25px;
 }
@@ -146,6 +147,7 @@ body{
     background-color: #140800;
     padding-top: 50px;
 }
+
 .program-section h3 {
     text-align: center;
     text-transform: capitalize;
@@ -154,6 +156,7 @@ body{
     font-size: 30px;
     padding-top: 40px;
 }
+
 .program-section h1 {
     text-align: center;
     color: #fff;
@@ -189,6 +192,7 @@ body{
 #box h4 {
     font-size: 25px;
 }
+
 #box p {
     font-size: 12px;
     padding-top: 20px;
@@ -230,6 +234,7 @@ body{
     font-size: 12px;
     padding-bottom: 30px;
 }
+
 #about-us h1 {
     padding-bottom: 20px;
 }
@@ -240,6 +245,7 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
 #about-us a:hover {
     background-color: #F66B0E;
 }
@@ -261,6 +267,7 @@ body{
 #plan-box h4 {
     font-size: 20px;
 }
+
 #plan-box ul {
     font-size: 15px;
     padding-bottom: 40px;
@@ -270,11 +277,13 @@ body{
 #plan-box h2 {
     font-size: 18px;
 }
+
 #plan-box i {
     font-size: 50px;
     text-align: center;
     padding-bottom: 20px;
 }
+
 #plan-box a {
     font-size: 18px;
     text-transform: uppercase;
@@ -302,12 +311,15 @@ body{
 #data  {
     text-align: center;
 }
+
 #data i {
     font-size: 32px;
 }
+
 #data h1 {
     font-size: 22px;
 }
+
 #data p {
     font-size: 8px;
 }
@@ -322,7 +334,6 @@ body{
 .container {
     width: 460px;
     padding-top: 50px;
-    /* text-align: center; */
 }
 
 .container p {
@@ -330,12 +341,14 @@ body{
     color: #fff;
     font-family: 'Poppins';
 }
+
 .container h1 {
     color: #fff;
     font-family: 'Poppins';
     font-size: 38px;
     text-transform: uppercase;
 }
+
 .container h1 span {
     color: #F66B0E;
     font-family: Arial, Helvetica, sans-serif;
@@ -343,6 +356,7 @@ body{
     text-transform: uppercase;
     padding-bottom: 40px;
 }
+
 .container input {
     padding: 12px;
     width: 430px;
@@ -351,9 +365,8 @@ body{
     border: 1px solid #F66B0E;
     background-color: #140800;
     color: #fff;
-    /* margin-left: 50px; */
-
 }
+
 .container #btn {
     margin-top: 20px;
     padding: 12px 182px;
@@ -362,8 +375,8 @@ body{
     border: 1px solid #F66B0E;
     background-color: #F66B0E;
     color: #fff;
-
 }
+
 .container #result {
     margin-top: 10px;
     text-align: center;
@@ -389,42 +402,51 @@ body{
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .footer #in-foot {
     display: inline;
 }
+
 .footer #col-1 {
     grid-column: 1 / span 2;
     text-align: left;
 }
+
 .footer #col-1 img {
     width: 20%;
 }
+
 .footer #col-1 p {
     color: #c2c2c2;
     font-size: 12px;
     padding-bottom: 20px;
 }
+
 .footer #col-1 input {
     border: 1px solid #F66B0E;
     background-color: #140800;
     color: #fff;
     padding: 15px;
 }
+
 .footer #col-1 #subs-btn {
     border: 1px solid #F66B0E;
     background-color: #F66B0E;
     color: #fff;
     padding: 15px 60px;
 }
+
 .footer #col-2 ul {
     list-style-type: none;
     font-size: 15px;
     padding-top: 10px;
     color: #c2c2c2;
 }
+
 .footer #col-2 h3 {
     text-transform: uppercase;
 }
+
 .footer #col-3 {
     grid-column: 1 / span 6;
     text-align: center;
@@ -436,6 +458,7 @@ body{
     color: #F66B0E;
     font-size: 32px;
 }
+
 .social-icons i {
     padding-right: 30px;
     padding-top: 40px;
